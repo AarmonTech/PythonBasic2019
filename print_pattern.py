@@ -10,6 +10,8 @@
 **
 *
 """
+for i in range(10):
+	print("*"*(10 - i))
 
 """2nd pattern
 ##########
@@ -18,6 +20,9 @@
    ####
     ##
 """
+
+for i in range(5):
+	print(" "*i + "#"*(10-i*2))
 
 """3rd pattern
 #########
@@ -40,6 +45,8 @@ PrashantTiwari
      ant
       n
 """
+for i in range(len("PrashantTiwari")):
+	
 
 """5th pattern
 P            i
